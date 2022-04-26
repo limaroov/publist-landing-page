@@ -37,8 +37,8 @@ const Form = ({ section, setMessage }) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    department: "",
-    time: "",
+    department: "option1",
+    time: "2:00 Available",
     message: "",
   });
 
